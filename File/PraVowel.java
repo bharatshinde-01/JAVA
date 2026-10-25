@@ -1,11 +1,10 @@
 //Write a java program to display all the vowels from a given string
-
+package File;
 import java.util.*;
 class PraVowel{
     public static void main (String [] args){
         Scanner sc = new Scanner(System.in);
         String str;
-        int ch;
         int count = 0;
         System.out.print("Enter your Stirng :");
         str = sc.nextLine();
@@ -16,5 +15,6 @@ class PraVowel{
             }
         }
         System.out.println("Vowels in String is :"+count);
+        sc.close();
     }
 }
