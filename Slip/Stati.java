@@ -1,4 +1,4 @@
-package Slip;
+
 import java.util.*;
 public class Stati {
 
